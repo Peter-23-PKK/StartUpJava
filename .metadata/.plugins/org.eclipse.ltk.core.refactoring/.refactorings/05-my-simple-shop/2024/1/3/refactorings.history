@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static int calculate(int count)&apos; from &apos;com.sci.Shop.main(...)&apos; to &apos;com.sci.Shop&apos;&#x0D;&#x0A;- Original project: &apos;05-my-simple-shop&apos;&#x0D;&#x0A;- Method name: &apos;calculate&apos;&#x0D;&#x0A;- Destination type: &apos;com.sci.Shop&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;calculate&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.sci{Shop.java" name="calculate" replace="false" selection="234 123" stamp="1705737482992" version="1.0" visibility="2"/>
+</session>

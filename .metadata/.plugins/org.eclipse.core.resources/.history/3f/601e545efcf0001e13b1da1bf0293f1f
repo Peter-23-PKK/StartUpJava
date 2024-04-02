@@ -1,0 +1,27 @@
+package com.sci.controller;
+
+import java.util.Arrays;
+import java.util.List;
+
+import com.shop.dto.ShopOperation;
+import com.shop.service.ItemService;
+import com.shop.service.ItemServiceImpl;
+
+public class ShopController {
+
+	private ItemService service;
+
+	public ShopController() {
+		service = ItemServiceImpl.getInstance();
+	}
+
+	public void open() {
+		showMenu();
+	}
+
+	private int showMenu() {
+		ShopOperation[] opt = ShopOperation.values();
+		List<ShopOperation> list = Arrays.asList(opt);
+		return 0;
+	}
+}

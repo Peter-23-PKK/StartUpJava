@@ -1,0 +1,28 @@
+package com.sci.singlaton;
+
+public class Person {
+
+	private String name;
+	private static Person p;
+
+	private Person(String name) {
+		super();
+		this.name = name;
+	}
+
+	public static Person getINstamce() {
+		if(p==null) {
+			return p = new Person();
+		}
+		return p;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

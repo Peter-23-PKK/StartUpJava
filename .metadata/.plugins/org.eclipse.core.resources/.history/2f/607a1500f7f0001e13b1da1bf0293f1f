@@ -1,0 +1,22 @@
+package com.sci;
+
+public abstract class Test {
+	abstract void print();
+}
+
+abstract class A extends Test {
+
+}
+
+class B extends A {
+
+	@Override
+	void print() {
+
+	}
+
+}
+
+class C extends B {
+
+}

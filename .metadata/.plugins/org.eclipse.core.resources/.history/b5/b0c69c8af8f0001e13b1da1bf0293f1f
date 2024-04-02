@@ -1,0 +1,14 @@
+package com.sci.singlaton;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Person p = new Person("Kyaw Kyaw");
+		System.out.println(p.getName());
+		
+		Person p2 = new Person("Zae Zaw");
+		System.out.println(p2.getName());
+
+	}
+
+}

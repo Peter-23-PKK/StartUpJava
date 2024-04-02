@@ -1,0 +1,11 @@
+package com.shop.dto;
+
+public enum ShopOperation {
+
+	Create, Update, Delete, Search, FindAll;
+
+	@Override
+	public String toString() {
+		return (ordinal() + 1) + "." + name();
+	}
+}

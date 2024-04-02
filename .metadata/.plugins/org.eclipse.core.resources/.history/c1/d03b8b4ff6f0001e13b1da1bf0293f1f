@@ -1,0 +1,17 @@
+package com.sci;
+
+public enum Music {
+
+	Rock("Lay Phyu"), POP("Hello"), Rap("Rap God");
+
+	private String song;
+
+	Music(String song) {
+		System.out.println("Music Constructor");
+		this.song = song;
+	}
+
+	public String getSong() {
+		return song;
+	}
+}

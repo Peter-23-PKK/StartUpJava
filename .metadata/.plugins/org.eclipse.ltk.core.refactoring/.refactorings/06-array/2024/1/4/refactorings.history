@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void loopOne()&apos; from &apos;com.sci.StarLooping.main(...)&apos; to &apos;com.sci.StarLooping&apos;&#x0D;&#x0A;- Original project: &apos;06-array&apos;&#x0D;&#x0A;- Method name: &apos;loopOne&apos;&#x0D;&#x0A;- Destination type: &apos;com.sci.StarLooping&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;loopOne&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.sci{StarLooping.java" name="loopOne" replace="false" selection="95 130" stamp="1705824828012" version="1.0" visibility="2"/>
+</session>

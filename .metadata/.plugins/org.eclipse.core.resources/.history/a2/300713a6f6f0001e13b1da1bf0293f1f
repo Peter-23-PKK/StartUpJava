@@ -1,0 +1,13 @@
+package com.sci;
+
+public abstract class Test {
+
+}
+
+abstract class A extends Test {
+
+}
+
+class B extends A {
+
+}

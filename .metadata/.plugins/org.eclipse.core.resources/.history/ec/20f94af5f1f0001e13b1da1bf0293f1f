@@ -1,0 +1,24 @@
+package com.sci;
+
+public class BeforeEnum {
+
+	public static final int MON = 1, TUE = 3, WED = 3;
+
+	public static void main(String[] args) {
+		int day = MON;
+		day = 5;
+		switch (day) {
+		case MON:
+			System.out.println("Monday");
+			break;
+		case TUE:
+			System.out.println("Tuesday");
+			break;
+		case WED:
+			System.out.println("Wednesday");
+			vreak;
+		}
+
+	}
+
+}

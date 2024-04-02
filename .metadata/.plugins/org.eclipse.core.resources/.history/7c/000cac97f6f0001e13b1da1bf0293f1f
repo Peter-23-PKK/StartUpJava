@@ -1,0 +1,5 @@
+package com.sci;
+
+public abstract class Test {
+
+}

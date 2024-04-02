@@ -1,0 +1,26 @@
+package com.sci;
+
+public class AfterEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Days day = Days.Monday;
+		switch (day) {
+		case Monday:
+			System.out.println(Days.Monday);
+			break;
+		case TuesDay:
+			System.out.println("Tuesday");
+			break;
+		case Wednesday:
+			System.out.println("Wednesday");
+			break;
+
+		}
+
+	}
+
+	enum Days {
+		Monday, TuesDay, Wednesday;
+	}
+}

@@ -1,0 +1,51 @@
+package com.sci.controller;
+
+import java.util.Arrays;
+import java.util.List;
+
+import com.shop.dto.ShopOperation;
+import com.shop.service.ItemService;
+import com.shop.service.ItemServiceImpl;
+import com.shop.util.ShopUtil;
+
+public class ShopController {
+
+	private ItemService service;
+
+	public ShopController() {
+		service = ItemServiceImpl.getInstance();
+	}
+
+	public void open() {
+		int menu = showMenu();
+		doOperation();
+	}
+
+	private void doOperation(ShopOperation opt) {
+		switch (opt) {
+		case ShowAll:{
+			showAll();
+		}
+		case Create:{
+			create();
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+	}
+
+	private void create() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void showAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private int showMenu() {
+		Arrays.asList(ShopOperation.values()).forEach(System.out::println);
+		return ShopUtil.getInt("Select Menu :");
+	}
+}

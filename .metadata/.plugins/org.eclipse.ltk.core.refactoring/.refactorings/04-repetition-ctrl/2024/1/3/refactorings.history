@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void whileLoop()&apos; from &apos;com.sci.LoopingDemo.main(...)&apos; to &apos;com.sci.LoopingDemo&apos;&#x0D;&#x0A;- Original project: &apos;04-repetition-ctrl&apos;&#x0D;&#x0A;- Method name: &apos;whileLoop&apos;&#x0D;&#x0A;- Destination type: &apos;com.sci.LoopingDemo&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;whileLoop&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.sci{LoopingDemo.java" name="whileLoop" replace="false" selection="95 71" stamp="1705733594583" version="1.0" visibility="2"/>
+</session>

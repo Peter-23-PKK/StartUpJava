@@ -1,0 +1,36 @@
+package com.sci;
+
+public enum Music {
+
+	Rock("Lay Phyu") {
+		@Override
+		public void playSong() {
+
+		}
+	},
+	POP("Hello") {
+		@Override
+		public void playSong() {
+
+		}
+	},
+	Rap("Rap God") {
+		@Override
+		public void playSong() {
+
+		}
+	};
+
+	private String song;
+
+	Music(String song) {
+		System.out.println("Music Constructor");
+		this.song = song;
+	}
+
+	public String getSong() {
+		return song;
+	}
+
+	public abstract void playSong();
+}

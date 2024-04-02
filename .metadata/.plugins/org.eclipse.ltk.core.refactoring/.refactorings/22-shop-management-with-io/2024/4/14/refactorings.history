@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.shop.dto.ItemOperation&apos; to &apos;ShopOperation&apos;&#x0D;&#x0A;- Original project: &apos;22-shop-management-with-io&apos;&#x0D;&#x0A;- Original element: &apos;com.shop.dto.ItemOperation&apos;&#x0D;&#x0A;- Renamed element: &apos;com.shop.dto.ShopOperation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ItemOperation&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.shop.dto{ItemOperation.java[ItemOperation" matchStrategy="1" name="ShopOperation" qualified="false" references="true" similarDeclarations="false" stamp="1712067552360" textual="false" version="1.0"/>
+</session>

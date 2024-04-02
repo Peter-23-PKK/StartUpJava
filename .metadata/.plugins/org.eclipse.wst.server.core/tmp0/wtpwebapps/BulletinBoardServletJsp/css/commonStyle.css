@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	left: -50px;
+}
+
+[part="preset-1"] .page-link{
+    color: inherit !important;
+ }
+ body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures that the body takes up at least the full viewport height */
+}
+ 
+ .profileImage {
+	width: 70px;
+	height: 70px;
+}
+.profileUserImage {
+	width: 260px;
+	height: 400px;
+}
+.navProfile {
+	width: 30px;
+	height: 30px;
+	border-top-right-radius: 90%;
+	border-top-left-radius: 90%;
+}
+
+.footer {
+    margin-block-start: auto;
+}
+ 
+.paginate_button .page-item.active .page-link {
+    color: #ffffff !important;
+}  
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: none !important;
+    padding: 0 !important; 
+    text-decoration: none !important;
+    background-color: inherit  !important;
+    background: inherit  !important;
+    margin-left: 0px !important;
+    color: #ffffff !important;
+  }
+  
+  .page-item.active .page-link {
+    color: #ffffff !important;
+  }
+
+  [part="preset-1"] .page-link:hover {
+    background: #008cff;
+    border: 1px solid #008cff;
+  }
+  
+  div.dataTables_wrapper div.dataTables_length select {
+    width: 68px !important;
+  }

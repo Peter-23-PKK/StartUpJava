@@ -1,0 +1,9 @@
+package com.sci;
+
+public enum Music {
+	Rock, POP("Hello"), Rap("Rap God");
+
+	Music() {
+		System.out.println("Music Constructor");
+	}
+}

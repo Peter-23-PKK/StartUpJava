@@ -1,0 +1,12 @@
+package com.sci;
+
+public class BeforeEnum {
+
+	public static final int MON = 1, TUE = 3, WED = 3;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

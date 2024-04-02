@@ -1,0 +1,17 @@
+package com.sci.controller;
+
+import com.shop.service.ItemService;
+import com.shop.service.ItemServiceImpl;
+
+public class ShopController {
+	
+	private ItemService service;
+	
+	public ShopController() {
+		service = ItemServiceImpl.getInstance();
+	}
+
+	public void open() {
+		service.create(null);
+	}
+}

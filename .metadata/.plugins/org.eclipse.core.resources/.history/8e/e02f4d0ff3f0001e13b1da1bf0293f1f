@@ -1,0 +1,14 @@
+package com.sci;
+
+public class AfterEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Days day = Days.Monday;
+	}
+
+}
+
+enum Days {
+	Monday, TuesDay, Wednesday;
+}
